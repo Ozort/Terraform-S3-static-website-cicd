@@ -1,4 +1,4 @@
-# 🚀 AWS S3 Static Website Hosting with Terraform + GitHub Actions CI/CD
+# AWS S3 Static Website Hosting with Terraform + GitHub Actions CI/CD
 
 This project started as a simple Terraform exercise but gradually became a practical DevOps workflow project.
 
@@ -8,7 +8,7 @@ Instead of manually creating resources through the AWS Console, everything is pr
 
 ---
 
-# 📌 What This Project Does
+# What This Project Does
 
 This project:
 
@@ -22,7 +22,7 @@ Whenever changes are pushed to GitHub, the CI/CD pipeline runs automatically.
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 * Terraform
 * AWS S3
@@ -32,7 +32,7 @@ Whenever changes are pushed to GitHub, the CI/CD pipeline runs automatically.
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```bash id="h90m3k"
 .
@@ -50,7 +50,7 @@ Whenever changes are pushed to GitHub, the CI/CD pipeline runs automatically.
 
 ---
 
-# ⚙️ Prerequisites
+# Prerequisites
 
 Before getting started, make sure you have:
 
@@ -62,7 +62,7 @@ Before getting started, make sure you have:
 
 ---
 
-# 🔐 Configure GitHub Secrets
+# Configure GitHub Secrets
 
 To allow GitHub Actions authenticate with AWS, add the following repository secrets:
 
@@ -124,7 +124,7 @@ Once completed, your S3 bucket and static website configuration should be fully 
 
 ---
 
-# 🔄 CI/CD Pipeline
+# CI/CD Pipeline
 
 This project also includes a simple GitHub Actions workflow.
 
@@ -145,7 +145,7 @@ This removes the need to manually deploy infrastructure changes every time.
 
 ---
 
-# 🌍 Accessing the Website
+# Accessing the Website
 
 After deployment:
 
@@ -159,7 +159,7 @@ Your website should now be live.
 
 ---
 
-# 🧠 What I Learned
+#  What I Learned
 
 Working on this project helped me better understand:
 
@@ -171,19 +171,9 @@ Working on this project helped me better understand:
 
 ---
 
-# 🔮 Possible Improvements
 
-Some future improvements I plan to add:
 
-* CloudFront integration
-* Custom domain setup with Route 53
-* HTTPS with AWS Certificate Manager
-* Remote Terraform backend configuration
-* Terraform state locking
-
----
-
-# 📸 Architecture Overview
+# Architecture Overview
 
 ```text id="qaqw2j"
 Developer → GitHub → GitHub Actions → Terraform → AWS S3 → Static Website
@@ -191,6 +181,6 @@ Developer → GitHub → GitHub Actions → Terraform → AWS S3 → Static Webs
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 Built as a hands-on DevOps project while learning Terraform, AWS, and CI/CD automation.
